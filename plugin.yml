@@ -1,0 +1,14 @@
+name: LpkTest
+main: LPKVN\LpkTest\LpkTest
+version: 0.0.1
+api: [3.0.0]
+author: LamPocketVN
+commands:
+  lpktest:
+   description: LpkTest Command
+   usage: "/lpkTest"
+   permission: lpktest.command.lpktest
+permissions:
+ lpktest.command.lpktest:
+  description: "Allows the user to run the lpktest command"
+  default: true
